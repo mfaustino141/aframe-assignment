@@ -7,6 +7,8 @@
   </head>
   <body>
     <a-scene>
+      <a-assets> <img id = "skyTexture" src="MinecraftSkyDay.jpg" >
+      </a-assets></a-assets>
       <!-- Camera -->
       <a-camera position="-1.4 1.4 8"></a-camera>
 
@@ -20,7 +22,7 @@
       </a-plane>
 
       <!-- Sky -->
-      <a-sky color="#006e7f"></a-sky>
+      <a-sky src="#skyTexture"></a-sky>
 
       <!-- MAIN IMAGE SHAPES -->
       <!-- Rectangular Prisms -->
